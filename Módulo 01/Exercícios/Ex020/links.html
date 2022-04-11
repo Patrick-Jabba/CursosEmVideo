@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a{
+            color: darkred;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover{
+            color: black;
+            text-align: underline;
+        }
+        a:active{
+            color: yellow;
+        }
+
+        .especial{
+            background-color: rgb(223, 74, 74);
+            color: white;
+        }
+        a::after{
+            content: '[link]';
+            text-align: none;
+            font-weight: normal;
+            color: darkgray;
+        }
+
+        a::before{
+            content: '<='
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li class="especial"><a href="https://github.com/Patrick-Jabba" target="_blank">Repositório Github</a></li>
+
+        <li><a href="https://www.linkedin.com/in/patrick-monteiro-fischer-1316369b/">LinkedIn</a></li>
+        <li><a href="https://netflix-clone-theta-rosy.vercel.app/" class="especial">Site do Netflix Clone</a></li>
+    </ul>
+</body>
+</html>
