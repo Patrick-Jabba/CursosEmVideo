@@ -1,0 +1,32 @@
+
+k	java:S106"9Replace this use of System.out or System.err by a logger.(€áÃá8§ëò0H‰RMAJORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(»‰‚Œ8§ëò0HŠRMAJORZ
+CODE_SMELL
+s	java:S107-"AConstructor has 8 parameters, which is greater than 7 authorized.(Š‘Ö8§ëò0H‹RMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(° òíøÿÿÿÿ8§ëò0HŒRMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(ÚèÜÿüÿÿÿÿ8§ëò0HRMAJORZ
+CODE_SMELL
+~
+java:S1192"HDefine a constant instead of duplicating this literal " vezes." 3 times.(‘¹ìı8Ä”€ó0HRCRITICALZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(»³¸Öÿÿÿÿÿ8§ëò0H’RMAJORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(‘¹ìı8§ëò0H“RMAJORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(©öÊ8§ëò0H”RMAJORZ
+CODE_SMELL
+j	java:S106"9Replace this use of System.out or System.err by a logger.(Ãû98§ëò0H•RMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(‚ı•üÿÿÿÿ8§ëò0H–RMAJORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(–Äæ¯8§ëò0H—RMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(Ğø¨êùÿÿÿÿ8§ëò0H˜RMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(µïÓÆüÿÿÿÿ8§ëò0H™RMAJORZ
+CODE_SMELL
+„	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(™ÜOHšRMINORZ
+CODE_SMELL

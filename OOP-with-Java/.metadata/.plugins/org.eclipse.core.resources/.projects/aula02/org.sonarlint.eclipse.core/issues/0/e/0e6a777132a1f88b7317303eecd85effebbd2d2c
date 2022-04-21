@@ -1,0 +1,23 @@
+
+m
+java:S2209"5Change this instance-reference to a static reference.(ω›ϊÿÿÿÿ8ªαγόƒ0HΕRMAJORZ
+CODE_SMELL
+m
+java:S2209"5Change this instance-reference to a static reference.(Ώ§³Οψÿÿÿÿ8ªαγόƒ0HΟRMAJORZ
+CODE_SMELL
+…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ψ΅Ύ€H½RMINORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(”„»”ύÿÿÿÿ8ªαγόƒ0HΚRMAJORZ
+CODE_SMELL
+h
+java:S2209"5Change this instance-reference to a static reference.(½§Ώ«8ªαγόƒ0HΗRMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(τ­Μωÿÿÿÿ8ªαγόƒ0HΙRMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(Ώ§³Οψÿÿÿÿ8ªαγόƒ0HΞRMAJORZ
+CODE_SMELL
+m
+java:S2209"5Change this instance-reference to a static reference.(® Μωÿÿÿÿ8ªαγόƒ0HΜRMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(® Μωÿÿÿÿ8ªαγόƒ0HΛRMAJORZ
+CODE_SMELL

@@ -1,0 +1,12 @@
+
+public class Aula13 {
+
+	public static void main(String[] args) {
+		
+		Mamifero x = new Mamifero();
+		
+		x.emitirSom();
+
+	}
+
+}

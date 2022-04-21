@@ -1,0 +1,20 @@
+
+k	java:S106"9Replace this use of System.out or System.err by a logger.(î˜ñã8œŸòÉ0H¯RMAJORZ
+CODE_SMELL
+_
+java:S1125"'Remove the unnecessary boolean literal.(¦İ§êùÿÿÿÿ8„™şÉ0H°RMINORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(†İ‚8œ‡ëÉ0H²RMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(ƒÅõ›şÿÿÿÿ8œŸòÉ0H³RMAJORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(ë¥Â8Å¶åÉ0H´RMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(ê«Ë²úÿÿÿÿ8„™şÉ0HµRMAJORZ
+CODE_SMELL
+…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ø¡¾€H¶RMINORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(ú·ÀÃùÿÿÿÿ8œŸòÉ0H·RMAJORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.( «¿ÿ8„™şÉ0H¸RMAJORZ
+CODE_SMELL

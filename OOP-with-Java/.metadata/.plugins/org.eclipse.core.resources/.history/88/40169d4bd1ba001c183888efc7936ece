@@ -1,0 +1,53 @@
+package aula09;
+
+public class Pessoa {
+	private String nome;
+	private int inteiro;
+	private String sexo;
+	
+	
+	public void fazerAniversario() {
+		this.idade++;
+	}
+
+
+	public Pessoa(String nome, int inteiro, String sexo) {
+		this.nome = nome;
+		this.inteiro = inteiro;
+		this.sexo = sexo;
+	}
+
+
+	private String getNome() {
+		return nome;
+	}
+
+
+	private void setNome(String nome) {
+		this.nome = nome;
+	}
+
+
+	private int getInteiro() {
+		return inteiro;
+	}
+
+
+	private void setInteiro(int inteiro) {
+		this.inteiro = inteiro;
+	}
+
+
+	private String getSexo() {
+		return sexo;
+	}
+
+
+	private void setSexo(String sexo) {
+		this.sexo = sexo;
+	}
+	
+	
+	
+	
+}
