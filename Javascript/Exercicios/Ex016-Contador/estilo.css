@@ -1,0 +1,73 @@
+.container{
+    background-image: url('./images/donald1000.jpg');
+    background-repeat: no-repeat;
+    background-color: rgba(6, 59, 97, 0.90);
+    background-position: center;
+    padding: 0px 0px 1000px 0px;
+    background-size: space;
+    
+
+}
+
+
+
+body{
+    font: normal 15pt Arial;
+
+    
+    
+}
+
+header{
+    color: white;
+    text-align: center;
+}
+
+section{
+    
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.363);
+    
+
+}
+div{
+    padding: 10px;
+    margin-top: 10px;
+    
+}
+
+input {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    background-color: beige;
+    font-size: 18px;
+    
+}
+
+.button{
+    width: 100px;
+    border-radius: 100px;
+    font-size: 18px;
+    background-color:beige;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+footer{
+    text-align: center;
+    
+}
+
+.link{
+    font-style: italic;
+    text-decoration: none;
+    color: white;
+    box-shadow: none;
+
+}
