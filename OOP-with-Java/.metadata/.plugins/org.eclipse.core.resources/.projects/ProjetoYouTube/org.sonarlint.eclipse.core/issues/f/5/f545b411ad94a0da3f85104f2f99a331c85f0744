@@ -1,13 +1,0 @@
-
-F
-java:S1220""Move this file to a named package.HãRMINORZ
-CODE_SMELL
-k
-java:S1854"8Remove this useless assignment to local variable "nova".(ÛØ®©8™²¼üƒ0H†RMAJORZ
-CODE_SMELL
-\
-java:S1481")Remove this unused "nova" local variable.(³ø·ï8™²¼üƒ0H‡RMINORZ
-CODE_SMELL
-Y
-java:S1905"&Remove this unnecessary cast to "int".(ÛØ®©8™²¼üƒ0HˆRMINORZ
-CODE_SMELL

@@ -1,31 +1,0 @@
-
-p	java:S106."9Replace this use of System.out or System.err by a logger.(±ıÑÿÿÿÿÿ8Ê­ùîƒ0HıRMAJORZ
-CODE_SMELL
-k	java:S106"9Replace this use of System.out or System.err by a logger.(ğ™ïø8ÖÔÛîƒ0HñRMAJORZ
-CODE_SMELL
-p	java:S106"9Replace this use of System.out or System.err by a logger.(‘şß‘ùÿÿÿÿ8Ê­ùîƒ0HùRMAJORZ
-CODE_SMELL
-k	java:S106"9Replace this use of System.out or System.err by a logger.(£Áß•8Ê­ùîƒ0HòRMAJORZ
-CODE_SMELL
-p	java:S106"9Replace this use of System.out or System.err by a logger.(Ï”±‹üÿÿÿÿ8Ê­ùîƒ0HöRMAJORZ
-CODE_SMELL
-k	java:S106)"9Replace this use of System.out or System.err by a logger.(îßü8Ê­ùîƒ0HüRMAJORZ
-CODE_SMELL
-F
-java:S1220""Move this file to a named package.HìRMINORZ
-CODE_SMELL
-b
-java:S1172"*Remove this unused method parameter "min".(®¶äşøÿÿÿÿ8Ê­ùîƒ0HôRMAJORZ
-CODE_SMELL
-k	java:S106"9Replace this use of System.out or System.err by a logger.(£Áß•8Ê­ùîƒ0HøRMAJORZ
-CODE_SMELL
-k	java:S106"9Replace this use of System.out or System.err by a logger.(Ş™õà8Ê­ùîƒ0H÷RMAJORZ
-CODE_SMELL
-p	java:S106"9Replace this use of System.out or System.err by a logger.(Ñöˆ¸ÿÿÿÿÿ8Ê­ùîƒ0HóRMAJORZ
-CODE_SMELL
-p	java:S106'"9Replace this use of System.out or System.err by a logger.(‘şß‘ùÿÿÿÿ8Ê­ùîƒ0HûRMAJORZ
-CODE_SMELL
-k	java:S106 "9Replace this use of System.out or System.err by a logger.(ÌÙóå8Ê­ùîƒ0HúRMAJORZ
-CODE_SMELL
-k	java:S1060"9Replace this use of System.out or System.err by a logger.(Ş™õà8Ê­ùîƒ0HşRMAJORZ
-CODE_SMELL

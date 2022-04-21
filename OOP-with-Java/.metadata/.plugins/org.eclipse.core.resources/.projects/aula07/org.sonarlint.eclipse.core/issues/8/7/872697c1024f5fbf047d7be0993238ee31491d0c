@@ -1,8 +1,0 @@
-
-„	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(™ÜOH›RMINORZ
-CODE_SMELL
-\
-java:S1197"*Move the array designators [] to the type.(³àF8Ä”€ó0HœRMINORZ
-CODE_SMELL
-ˆ	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›Ç¸‹ÿÿÿÿÿ8¥â‚ö0HŸRMINORZ
-CODE_SMELL
