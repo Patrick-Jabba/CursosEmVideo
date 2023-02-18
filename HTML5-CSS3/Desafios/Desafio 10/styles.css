@@ -66,8 +66,8 @@ div.divNavbar {
     background-color: #84e1ad;
     width: 100%;
     max-width: 1920px;
-    height: 100%;
-    max-height: 1440px;
+    height: 1440px;
+    max-height: 1740px;
 }
 
 .content {
@@ -75,7 +75,8 @@ div.divNavbar {
 
     width: 100%;
     max-width: 900px;
-    height: 90%;
+    height: 1400px;
+
 
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -115,8 +116,6 @@ span {
 .div-footer {
     width: 100%;
     max-width: 1920px;
-    height: 2rem;
-    margin-top: 1rem;
 
     background-color: #1A5c38;
     color: white;
@@ -125,5 +124,5 @@ span {
     position: relative;
     text-align: center;
 
-    padding: 1rem 0 0 0.5rem;
+    padding: 1rem 0 0 1rem;
 }
