@@ -1,43 +1,47 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 @font-face {
-    font-family: idroid;
-    src: url('./assets/fonts/idroid.otf') format('opentype');
+    font-family: 'Android';
+    src: url('../assets/fonts/idroid.otf') format('opentype');
     font-style: normal;
     font-weight: 300 800;
+}
+
+:root {
+    --cor0: #c5ebd6;
+    --cor1: #83e1ad;
+    --cor2: #3ddc84;
+    --cor3: #1a5c37;
+    --cor4: #063d1e;
+
+    --fonte-android: 'Android', cursive, sans-serif;
 }
 
 * {
     margin: 0 auto;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Bebas Neue', cursive, sans-serif;
 }
 
+body {
+    background-color: var(--cor0);
+}
 
-div.divNavbar {
+header {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    
     width: 100%;
     max-width: 1920px;
     height: 10rem;
     
-
+    
     background-image: linear-gradient(#3CD681, #2B9B5D, #25824f, #1C633B);
     color: white;
-}
-
-.navbar-header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;   
-
-    text-align: center;
-}
-
-.navbar-header h1 {
-    margin-bottom: 2rem;
 }
 
 .menu {
@@ -45,10 +49,10 @@ div.divNavbar {
     margin: 0 auto;
     max-width: 1920px;
     height: 2rem;
-
+    
     padding: 1rem 0 0 0.5rem;
     background-color: #1A5c38;
-
+    
 }
 .menu a {
     text-decoration: none;
@@ -59,32 +63,39 @@ div.divNavbar {
 .menu li {
     list-style: none;
     display: inline;
-    padding: 0 0.5rem;
+    padding: 0.5rem 0.5rem;
 }
 
-.content-container {
-    background-color: #84e1ad;
+main {
+    min-width: 300px;
+    max-width: 1000px;
     width: 100%;
-    max-width: 1920px;
-    height: 1440px;
-    max-height: 1740px;
-}
 
-.content {
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.4);
+
     padding: 1rem 0.5rem;
-
-    width: 100%;
-    max-width: 900px;
-    height: 1400px;
-
 
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    background-color: white;
+    margin-bottom: 2rem;
 }
 
-.content h1, h2{
-    font-family: idroid;
+main img {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    margin-top: 1rem;
+
+    width: 100%;
+}
+
+.bugdroid-pequeno {
+    width: 50%;
+}
+
+main h1, h2{
+    font-family: var(--fonte-android);
     color: #2C6847;
     margin-top: 1rem;
 }
@@ -93,7 +104,7 @@ h2 {
     background-image: linear-gradient(to right, #c6ead6 10%, #d1efdf, #daf2e5, #e8f6ee, #eee)
 }
 
-.content p {
+main p {
     margin-top: 1rem;
     text-align: justify;
     letter-spacing: 1px;
@@ -113,11 +124,17 @@ span {
     width: 95%;
 }
 
+.items a {
+    color: #2C6847;
+    font-weight: bold;
+    text-decoration: none;
+}
+
 .div-footer {
     width: 100%;
     max-width: 1920px;
 
-    background-color: #1A5c38;
+    background-color: var(--cor4);
     color: white;
 
     bottom: 0;
@@ -125,4 +142,10 @@ span {
     text-align: center;
 
     padding: 1rem 0 0 1rem;
+}
+
+.div-footer a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
 }
