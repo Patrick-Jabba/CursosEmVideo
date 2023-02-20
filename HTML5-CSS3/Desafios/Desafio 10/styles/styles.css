@@ -73,7 +73,6 @@ header p {
     
     padding: 1rem 0 0 0.5rem;
     background-color: var(--cor4);
-    box-shadow: 0px 7px 7px rgba(0,0,0,0.192);
     
 }
 .menu a {
@@ -227,7 +226,6 @@ aside > ul {
     color: white;
     font-weight: bold;
     text-decoration: none;
-    text-shadow: 2px 2px 0px rgba(0,0,0,0.1);
 }
 
 .div-footer a:hover {
