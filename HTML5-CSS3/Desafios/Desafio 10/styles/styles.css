@@ -73,12 +73,11 @@ header p {
     
     padding: 1rem 0 0 0.5rem;
     background-color: var(--cor4);
-    
+    box-shadow: 1px 1px 0px rgba(0,0,0,0.4);
 }
 .menu a {
     color: white;
     text-decoration: none;
-    font-weight: bold;
     padding: 10px;
     transition: 0.2s ease-in;
 }
