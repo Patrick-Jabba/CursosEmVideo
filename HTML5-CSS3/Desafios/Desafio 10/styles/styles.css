@@ -219,12 +219,10 @@ aside > ul {
 
     padding: 0.5rem;
     font-size: 0.8rem;
-    text-shadow: 2px 2px 0px rgba(0,0,0,0.1);
 }
 
 .div-footer a {
     color: white;
-    font-weight: bold;
     text-decoration: none;
 }
 
