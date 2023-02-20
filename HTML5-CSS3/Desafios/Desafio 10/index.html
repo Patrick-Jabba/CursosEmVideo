@@ -12,7 +12,7 @@
     <header class="divNavbar">
         <h1>CURIOSIDADES DE TECNOLOGIA</h1>
         <p>
-            Tudo aquilo que você sempres quis saber sobre o mundo <br> Tech, 
+            Tudo aquilo que você sempres quis saber sobre o mundo Tech, 
             em um único lugar.
         </p>
         <div class="navbar-header">
@@ -20,17 +20,14 @@
         </div>
     </header>
     <nav class="menu">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Notícias</a></li>
-                    <li><a href="#">Curiosidades</a></li>
-                    <li><a href="#">Fale Conosco</a></li>
-                </ul>
+        <a href="#">Home</a>
+        <a href="#">Notícias</a>
+        <a href="#">Curiosidades</a>
+        <a href="#">Fale Conosco</a>
     </nav>
 
     <main>
         <article class="content">
-            <div class="items">
                 <h1>HISTÓRIA DO MASCOTE DO ANDROID</h1>
                 <p>
                     Provavelmente você sabe que o sistema operacional 
@@ -41,8 +38,8 @@
                 <h2>A PRIMEIRA VERSÃO</h2>
                 <p>
                     A primeira tentativa de criar um mascote surgiu em 2007 e veio de um desenvolvedor 
-                    chamado <a href="https://androidcommunity.com/dan-morrill-shows-us-the-android-mascot-that-almost-was-20130103/" target="_blank">Dan Morrill</a>. Ele conta que abriu o 
-                    <a href="https://inkscape.org/" target="_blank">Inkscape</a> (software livre para vetorização de imagens) e criou sua própria versão de robô. O objetivo era apenas personificar o sistema apenas para a a sua equipe, não existia nenhuma solicitação da empresa para a criação de um mascote.
+                    chamado <a class="externo" href="https://androidcommunity.com/dan-morrill-shows-us-the-android-mascot-that-almost-was-20130103/" target="_blank">Dan Morrill</a>. Ele conta que abriu o 
+                    <a href="https://inkscape.org/" target="_blank" class="externo">Inkscape</a> (software livre para vetorização de imagens) e criou sua própria versão de robô. O objetivo era apenas personificar o sistema apenas para a a sua equipe, não existia nenhuma solicitação da empresa para a criação de um mascote.
                 </p>
                 <div>
                     <picture>
@@ -57,20 +54,20 @@
                 <h2>SURGE UM NOVO MASCOTE</h2>
                 <p>
                     A ideia de ter um mascote foi amadurecendo e a missão foi passada para uma profissional
-                     da área. A ilustradora Russa <a href="https://www.irinablok.com/android" target="_blank">Irina Blok</a>, também funcionária do Google, 
+                     da área. A ilustradora Russa <a class="externo" href="https://www.irinablok.com/android" target="_blank">Irina Blok</a>, também funcionária do Google, 
                     ficou com a missão de representar o pequeno robô de uma maneira mais agradável.
                 </p>
                 <div>
                     <picture>
                         <source media="(max-width: 600px)" srcset="assets/images/irina-blok-pq.jpg">
-                        <img style="border-radius: 4px;" src="./assets/images/irina-blok.jpg" alt="">
+                        <img src="./assets/images/irina-blok.jpg" alt="">
                     </picture>
                 </div>
                 <p>
                     A ideia principal da Irina era representar tudo graficamente com poucos traços e de forma mais chapada. O desenho também deveria gerar identificação rápida com quem o olha. Surgiu então o <span>Bugdroid</span>, o novo mascote do Android.
                 </p>
                 <div>
-                    <img class="bugdroid-pequeno" style="border-radius: 4px;" src="./assets/images/bugdroid.png" alt="">
+                    <img class="bugdroid-pequeno" src="./assets/images/bugdroid.png" alt="">
                 </div>
                 <p>
                     A principal inspiração para os traços do novo Bugdroid veio 
@@ -78,14 +75,14 @@
                      o gênero de cada porta. Conta a lenda que a artista estava criando em sua mesa no escritório do Google e olhou 
                      para o lado dos banheiros e a identificação foi imediata: simples, limpo, objetivo.
                 </p>            
-                <div>
+                <div class="video">
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/l2UDgpLz20M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
 
                 <aside>
                     <h3>Quer aprender mais?</h3> 
 
-                    Outro assunto curioso em relação ao Android é que cada versão sempre foi nomeada em homenagem a um doce, em ordem alfabética a partir da versão 1.5 até a 9.0.
+                    <p>Outro assunto curioso em relação ao Android é que cada versão sempre foi nomeada em homenagem a um doce, em ordem alfabética a partir da versão 1.5 até a 9.0.</p>
 
                     <ul>
                         <li>1.5 - Cupcake</li>
@@ -109,17 +106,26 @@
                     </p>
 
                     <p>
-                        Acesse aqui o site <a href="https://www.android.com/intl/en_uk/history/#/donut" target="_blank">Android History</a> para conhecer a sequência das versões "adocicadas" e o que cada uma trouxe para o sistema Android.
+                        Acesse aqui o site <a class="externo" href="https://www.android.com/intl/en_uk/history/#/donut" target="_blank">Android History</a> para conhecer a sequência das versões "adocicadas" e o que cada uma trouxe para o sistema Android.
                     </p>
                 </aside>
-            </div>
         </article>
     </main>
 
     <footer class="div-footer">
         <p>
-            Site criado por <a href="https://gustavoguanabara.github.io/" target="_blank" style="color: white;">Gustavo Guanabara</a> para o 
-            <a href="https://www.youtube.com/cursoemvideo" target="_blank">CursoemVideo</a>.
+            Site criado por 
+            <a 
+                href="https://gustavoguanabara.github.io/" target="_blank"
+            >
+                Gustavo Guanabara
+            </a> 
+            para o 
+            <a 
+                href="https://www.youtube.com/cursoemvideo" target="_blank"
+            >
+                CursoemVideo
+            </a>.
         </p>
     </footer>
 </body>

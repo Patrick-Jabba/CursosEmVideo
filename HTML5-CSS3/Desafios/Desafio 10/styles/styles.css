@@ -29,19 +29,40 @@ body {
     background-color: var(--cor0);
 }
 
+a.externo::after {
+    content: '\00a0\1f517';
+}
+
 header {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    background-image: linear-gradient(var(--cor2),var(--cor3), var(--cor4));
+    color: white;
+    text-align: center;
     
+    min-height: 12rem;
     width: 100%;
     max-width: 1920px;
-    height: 10rem;
-    
-    
-    background-image: linear-gradient(#3CD681, #2B9B5D, #25824f, #1C633B);
-    color: white;
+}
+
+header h1 {
+    margin-bottom: 1.5rem;
+    font-size: 3rem;
+    text-shadow: 2px 2px 0px rgba(0,0,0,0.4);
+    font-weight: normal;
+}
+
+header p {
+    width: 20rem;
+    font-size: 1.2rem;
+    width: 60%;
+    max-width: 25rem;    
+    padding-right: 1rem;
+    padding-left: 1rem;
+    text-shadow: 2px 2px 0px rgba(0,0,0,0.4);
 }
 
 .menu {
@@ -51,19 +72,22 @@ header {
     height: 2rem;
     
     padding: 1rem 0 0 0.5rem;
-    background-color: #1A5c38;
+    background-color: var(--cor4);
+    box-shadow: 0px 7px 7px rgba(0,0,0,0.192);
     
 }
 .menu a {
-    text-decoration: none;
     color: white;
+    text-decoration: none;
     font-weight: bold;
+    padding: 10px;
+    transition: 0.2s ease-in;
 }
 
-.menu li {
-    list-style: none;
-    display: inline;
-    padding: 0.5rem 0.5rem;
+.menu a:hover {
+    background-color: white;
+    color: var(--cor4);
+    border-radius: 4px;
 }
 
 main {
@@ -72,7 +96,6 @@ main {
     width: 100%;
 
     background-color: white;
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.4);
 
     padding: 1rem 0.5rem;
 
@@ -88,64 +111,126 @@ main img {
     margin-top: 1rem;
 
     width: 100%;
+
+    border-radius: 0.25rem;
 }
 
 .bugdroid-pequeno {
-    width: 50%;
+    max-width: 21rem;
+    display: block;
 }
 
 main h1, h2{
     font-family: var(--fonte-android);
-    color: #2C6847;
+    color: var(--cor3);
     margin-top: 1rem;
+    text-shadow: 2px 2px 0px rgba(0,0,0,0.4);
+    font-weight: normal;
 }
 
 h2 {
-    background-image: linear-gradient(to right, #c6ead6 10%, #d1efdf, #daf2e5, #e8f6ee, #eee)
+    background-image: linear-gradient(to right, var(--cor0), transparent);
+    text-indent: 0.5rem;
 }
 
 main p {
     margin-top: 1rem;
-    text-align: justify;
-    letter-spacing: 1px;
-    line-height: 1.5rem;
-}
 
-p::first-line {
-    margin-left: 16px;
+    text-align: justify;
+    text-indent: 1.7rem;
+    letter-spacing: 1px;
+    line-height: 2rem;
+    font-size: 1rem;
+    text-shadow: 2px 2px 0px rgba(0,0,0,0.1);
 }
 
 span {
-    color: #2C6847;
+    color: var(--cor3);
     font-weight: bold;
 }
 
-.items {
-    width: 95%;
-}
-
-.items a {
-    color: #2C6847;
+main a {
+    color: var(--cor4);
     font-weight: bold;
     text-decoration: none;
+    background-color: var(--cor0);
+}
+
+main a:hover {
+    text-decoration: underline;
+    color: var(--cor3);
+}
+
+.content {
+    padding: 0 1rem;
+}
+
+div.video {
+    padding: 2.25rem;
+    padding-bottom: 55.5%;
+    background-color: var(--cor4);
+    margin: 0 -1.5rem 1rem -1.5rem;
+
+    position: relative;
+}
+
+div.video > iframe {
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    top: 5%;
+    left: 5%;
+}
+
+aside {
+    background-color: var(--cor0);
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 3px 3px 8px rgb(0, 0, 0, 0.4);
+}
+
+aside > h3 {
+    color: white;
+    background-color: var(--cor3);
+    margin: -10px -10px 0px -10px;
+    padding: 0.5rem;
+    border-radius: 10px 10px 0px 0px;
+}
+
+aside > p {
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+aside > ul {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 0.25rem;
+    list-style-type: '\2714\00A0\00A0';
+    list-style-position: inside;
 }
 
 .div-footer {
-    width: 100%;
-    max-width: 1920px;
+    bottom: 0;
+    position: relative;
 
     background-color: var(--cor4);
     color: white;
-
-    bottom: 0;
-    position: relative;
     text-align: center;
 
-    padding: 1rem 0 0 1rem;
+    padding: 0.5rem;
+    font-size: 0.8rem;
+    text-shadow: 2px 2px 0px rgba(0,0,0,0.1);
 }
 
 .div-footer a {
     color: white;
     font-weight: bold;
     text-decoration: none;
+    text-shadow: 2px 2px 0px rgba(0,0,0,0.1);
+}
+
+.div-footer a:hover {
+    text-decoration: underline;
+    color: var(--cor0);
 }
