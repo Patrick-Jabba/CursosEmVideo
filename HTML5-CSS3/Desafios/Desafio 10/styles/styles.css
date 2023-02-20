@@ -160,15 +160,11 @@ main a:hover {
     color: var(--cor3);
 }
 
-.content {
-    padding: 0 1rem;
-}
-
 div.video {
-    padding: 2.25rem;
+    padding: 1rem;
     padding-bottom: 55.5%;
     background-color: var(--cor4);
-    margin: 0 -1.5rem 1rem -1.5rem;
+    margin: 0 -0.5rem 1rem -0.5rem;
 
     position: relative;
 }
