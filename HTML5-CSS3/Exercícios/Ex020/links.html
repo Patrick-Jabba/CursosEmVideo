@@ -6,6 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+
+        /*
+        SELETORES PERSONALIZADOS
+        # = id
+        . = class
+        : = pseudo-class
+        ::= pseudo-element
+        > = children
+        
+        */
+
         body{
             font-family: Arial, Helvetica, sans-serif;
         }
@@ -26,16 +37,17 @@
         .especial{
             background-color: rgb(223, 74, 74);
             color: white;
+
         }
         a::after{
-            content: '[link]';
-            text-align: none;
+            content: '<=';
+            text-decoration: none;
             font-weight: normal;
             color: darkgray;
         }
 
         a::before{
-            content: '<='
+            content: '=>'
         }
 
     </style>
@@ -43,9 +55,9 @@
 <body>
     <h1>Personalizando Links</h1>
     <ul>
-        <li class="especial"><a href="https://github.com/Patrick-Jabba" target="_blank">Repositório Github</a></li>
+        <li><a class="especial" href="https://github.com/Patrick-Jabba" target="_blank">Repositório Github</a></li>
 
-        <li><a href="https://www.linkedin.com/in/patrick-monteiro-fischer-1316369b/">LinkedIn</a></li>
+        <li><a class="especial" href="https://www.linkedin.com/in/patrick-monteiro-fischer-1316369b/">LinkedIn</a></li>
         <li><a href="https://netflix-clone-theta-rosy.vercel.app/" class="especial">Site do Netflix Clone</a></li>
     </ul>
 </body>

@@ -17,7 +17,7 @@ numeros.sort()
 
 console.log(`Em ordem os valores do vetor ficam: ${numeros}`)
 
-let pos = numeros.indexOf(4)
+let pos = numeros.indexOf(8)
 if (pos == -1){
     console.log('O valor não foi encontrado!')
 } else {
